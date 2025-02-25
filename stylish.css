@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header a button {
+    background-color: white;
+    color: #0077cc;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+header a button:hover {
+    background-color: #005fa3;
+    color: white;
+}
+
+/* Sections */
+section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0077cc;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Form Styling */
+form {
+    background: #e6e6e6;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"], input[type="email"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Align gender options in one line */
+.gender-group, .interest-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="Submit"] {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button[type="Submit"]:hover {
+    background-color: #005fa3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0077cc;
+    color: white;
+    margin-top: 20px;
+}
